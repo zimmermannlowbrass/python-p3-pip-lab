@@ -29,8 +29,7 @@ specific python version and libraries.
  `requests==2.25.0` and `pytest==5.4.2`
 
 Run `pipenv shell` to enter the virtual environment. Then run
-`pytest -x` to run your tests. Use these instructions and `pytest`'s error
-messages to complete your work in the `lib/` folder.
+`pytest -x` to run your tests.
 
 Once all of your tests are passing, commit and push your work using `git` to
 submit.
