@@ -9,22 +9,33 @@
 
 ## Key Vocab
 
-- **Package** is a bundle of software to be installed.
-- **Repository** storage location for software packages
-
+- **Module**: a file containing Python definitions and statements. A module's
+functions, classes, and global variables can be accessed by other modules.
+- **Package**: a collection of modules that can be accessed as a group using
+the package name.
+- **`import`**: the Python keyword used to access data from other packages and
+modules inside of the current module.
+- **PyPI**: the **Py**thon **P**ackage **I**ndex. A repository of Python
+packages that can be downloaded and made available to your application.
+- **`pip`**: the command line tool used to download packages from PyPI. `pip`
+is installed on your computer automatically when you download Python.
+- **Virtual Environment**: a collection of modules, packages, and scripts that
+can be activated or deactivated at any time.
+- **Pipenv**: a virtual environment tool that uses `pip` to manage the modules,
+packages, and scripts that you intend to use in your application.
 
 ***
 
 ## Introduction
 
-In this lab we will create a virtual environment using pipenv with a
-specific python version and libraries.
+In this lab we will create a virtual environment using pipenv with
+specific versions of Python and libraries.
 
 ***
 
 ## Instructions
 
-- Using the command `pipenv --python 3.9.2`, set up a virtual environment using python 3.9.2.
+- Using the command `pipenv --python 3.9.2`, set up a virtual environment using Python 3.9.2.
 - Using the `pipenv install` command install these versions of the following libraries
  `requests==2.25.0` and `pytest==5.4.2`
 
@@ -39,9 +50,9 @@ submit.
 ## Conclusion
 
 Virtual environments allow us to have a deterministic and predictable
- runtime for our python projects. You can apply what we learned in
+ runtime for our Python projects. You can apply what we learned in
  this exercise to make sure you have the right environment to
- run your python code in for your future projects.
+ run your Python code in for your future projects.
 ***
 
 ## Resources
