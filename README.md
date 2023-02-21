@@ -35,13 +35,13 @@ specific versions of Python and libraries.
 
 ## Instructions
 
-- Using the command `pipenv install --python 3.9.2`, set up a virtual
-  environment using Python 3.9.2.
+- Using the command `pipenv install --python 3.8.13`, set up a virtual
+  environment using Python 3.8.13.
 - Using the `pipenv install` command install these versions of the following libraries
- `requests==2.27.1` and `pytest==6.2.5`
+ `requests==2.27.1` and `pytest==7.1.3`
 
 Run `pipenv shell` to enter the virtual environment. Then run
-`pytest -x` to run your tests.
+`pytest lib/testing_env` to run your tests.
 
 Once all of your tests are passing, commit and push your work using `git` to
 submit.
